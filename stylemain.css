@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: black;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile {
+    background: white;
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.profile h1 {
+    font-size: 2.5rem;
+    color: #ff4d4d;
+    margin: 0;
+}
+
+.profile p {
+    font-size: 1.1rem;
+    color: #666;
+    margin: 20px 0;
+}
+
+.profile .button {
+    margin-top: 20px;
+}
+
+.button a {
+    display: inline-block;
+    background-color: #ff4d4d;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.button a:hover {
+    background-color: #e43d3d;
+}
+
+.avatar {
+    align-items : center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+
+.avatar img {
+    width: 100%;
+    height: auto;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #999;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #ff4d4d;
+}

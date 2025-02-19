@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.detail-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.profile h1 {
+    font-size: 2.5rem;
+    color: #ff4d4d;
+    margin: 0;
+}
+
+.profile p {
+    font-size: 1.1rem;
+    color: #666;
+    margin: 20px 0;
+}
+
+.profile .button {
+    margin-top: 20px;
+}
+
+.button a {
+    display: inline-block;
+    background-color: #ff4d4d;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.button a:hover {
+    background-color: #e43d3d;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+
+.avatar img {
+    width: 100%;
+    height: auto;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #999;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #ff4d4d;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+table tr {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table td:first-child {
+    font-weight: bold;
+    color: #333;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #e43d3d;
+}
